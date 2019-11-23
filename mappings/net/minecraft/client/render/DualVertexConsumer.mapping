@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_4720 net/minecraft/client/render/DualVertexConsumer
+	CLASS class_4589 DualVertexConsumerImpl
+		FIELD field_21685 firstConsumer Lnet/minecraft/class_4588;
+		FIELD field_21686 secondConsumer Lnet/minecraft/class_4588;
+		METHOD <init> (Lnet/minecraft/class_4588;Lnet/minecraft/class_4588;)V
+			ARG 1 firstConsumer
+			ARG 2 secondConsumer
+	METHOD method_24037 create (Lnet/minecraft/class_4588;Lnet/minecraft/class_4588;)Lnet/minecraft/class_4588;
+		ARG 0 firstConsumer
+		ARG 1 secondConsumer

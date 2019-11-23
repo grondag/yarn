@@ -1,0 +1,39 @@
+CLASS net/minecraft/class_4722 net/minecraft/client/render/StupidDumbassRenderCrap
+	FIELD field_21700 SOLID_LAYER Lnet/minecraft/class_1921;
+	FIELD field_21701 CUTOUT_LAYER Lnet/minecraft/class_1921;
+	FIELD field_21702 TRANSLUCENT_LAYER Lnet/minecraft/class_1921;
+	FIELD field_21703 TRANSLUCENT_CULL_LAYER Lnet/minecraft/class_1921;
+	FIELD field_21704 SHULKER_BOX_ATLAS Lnet/minecraft/class_2960;
+	FIELD field_21705 BED_ATLAS Lnet/minecraft/class_2960;
+	FIELD field_21706 BANNER_ATLAS Lnet/minecraft/class_2960;
+	FIELD field_21707 SHIELD_ATLAS Lnet/minecraft/class_2960;
+	FIELD field_21708 SIGN_ATLAS Lnet/minecraft/class_2960;
+	FIELD field_21709 CHEST_ATLAS Lnet/minecraft/class_2960;
+	FIELD field_21710 PLAIN_SHULKER_BOX Lnet/minecraft/class_4730;
+	FIELD field_21711 DYED_SHULKER_BOXES Ljava/util/List;
+	FIELD field_21712 SIGN_MATERIAL_SUPPLIERS Ljava/util/Map;
+	FIELD field_21713 BEDS [Lnet/minecraft/class_4730;
+	FIELD field_21724 SHULKER_BOX_LAYER Lnet/minecraft/class_1921;
+	FIELD field_21725 BED_LAYER Lnet/minecraft/class_1921;
+	FIELD field_21726 BANNER_LAYER Lnet/minecraft/class_1921;
+	FIELD field_21727 SHEILD_LAYER Lnet/minecraft/class_1921;
+	FIELD field_21728 SIGN_LAYER Lnet/minecraft/class_1921;
+	FIELD field_21729 CHEST_LAYER Lnet/minecraft/class_1921;
+	METHOD method_24059 bannerLayer ()Lnet/minecraft/class_1921;
+	METHOD method_24062 getBadChestMaterial (Lnet/minecraft/class_2586;Lnet/minecraft/class_2745;Z)Lnet/minecraft/class_4730;
+	METHOD method_24063 chooseChestSide (Lnet/minecraft/class_2745;Lnet/minecraft/class_4730;Lnet/minecraft/class_4730;Lnet/minecraft/class_4730;)Lnet/minecraft/class_4730;
+		ARG 1 unsided
+		ARG 2 left
+		ARG 3 right
+	METHOD method_24064 makeBadSignMaterial (Lnet/minecraft/class_4719;)Lnet/minecraft/class_4730;
+	METHOD method_24065 makeBadChestMaterial (Ljava/lang/String;)Lnet/minecraft/class_4730;
+	METHOD method_24066 addBadCouplings (Ljava/util/function/Consumer;)V
+	METHOD method_24067 shieldLayer ()Lnet/minecraft/class_1921;
+	METHOD method_24069 bedLayer ()Lnet/minecraft/class_1921;
+	METHOD method_24070 shulkerBoxLayer ()Lnet/minecraft/class_1921;
+	METHOD method_24071 signLayer ()Lnet/minecraft/class_1921;
+	METHOD method_24072 chestLayer ()Lnet/minecraft/class_1921;
+	METHOD method_24073 solidLayer ()Lnet/minecraft/class_1921;
+	METHOD method_24074 cutoutLayer ()Lnet/minecraft/class_1921;
+	METHOD method_24075 translucentLayer ()Lnet/minecraft/class_1921;
+	METHOD method_24076 translucentCulledLayer ()Lnet/minecraft/class_1921;

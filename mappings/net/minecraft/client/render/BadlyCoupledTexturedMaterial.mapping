@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_4730 net/minecraft/client/render/BadlyCoupledTexturedMaterial
+	FIELD field_21769 layerId Lnet/minecraft/class_2960;
+	FIELD field_21770 textureId Lnet/minecraft/class_2960;
+	FIELD field_21771 renderLayer Lnet/minecraft/class_1921;
+	METHOD method_24144 layerId ()Lnet/minecraft/class_2960;
+	METHOD method_24145 getConsumer (Lnet/minecraft/class_4597;Ljava/util/function/Function;)Lnet/minecraft/class_4588;
+		ARG 2 consumerFunction
+	METHOD method_24146 getLayer (Ljava/util/function/Function;)Lnet/minecraft/class_1921;
+		ARG 1 layerFunction
+	METHOD method_24147 textureId ()Lnet/minecraft/class_2960;
+	METHOD method_24148 getSprite ()Lnet/minecraft/class_1058;

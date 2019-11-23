@@ -39,3 +39,18 @@ CLASS net/minecraft/class_4588 net/minecraft/client/render/VertexConsumer
 		ARG 2 v
 	METHOD method_22922 overlay (I)Lnet/minecraft/class_4588;
 		ARG 1 uv
+	METHOD method_23919 verte (FFFFFFFFFIIFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 red
+		ARG 5 green
+		ARG 6 blue
+		ARG 7 alpha
+		ARG 8 u
+		ARG 9 v
+		ARG 10 overlay
+		ARG 11 light
+		ARG 12 normX
+		ARG 13 normY
+		ARG 14 normZ
