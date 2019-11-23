@@ -1,0 +1,21 @@
+CLASS net/minecraft/class_4729 net/minecraft/ComputedResourcePack
+	FIELD field_21759 SHIELD_BASE Lnet/minecraft/class_2960;
+	FIELD field_21760 BANNER_BASE Lnet/minecraft/class_2960;
+	FIELD field_21761 GOLEM Lnet/minecraft/class_2960;
+	FIELD field_21762 CHESTS Ljava/util/Map;
+	FIELD field_21763 SHAPES Ljava/util/List;
+	FIELD field_21764 SHIELD_SHAPES Ljava/util/Set;
+	FIELD field_21765 BANNER_SHAPES Ljava/util/Set;
+	FIELD field_21766 wrapped Lnet/minecraft/class_3262;
+	METHOD method_24132 copySubImage (Lnet/minecraft/class_1011;Lnet/minecraft/class_1011;IIIIIIIZZ)V
+		ARG 0 fromImg
+		ARG 1 toImage
+		ARG 2 uFrom
+		ARG 3 vFrom
+		ARG 4 uTo
+		ARG 5 vTo
+		ARG 6 width
+		ARG 7 height
+		ARG 8 scale
+		ARG 9 flipU
+		ARG 10 flipV

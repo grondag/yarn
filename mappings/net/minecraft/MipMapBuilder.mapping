@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_4725 net/minecraft/MipMapBuilder
+	FIELD field_21747 LUMINANCE_MAP [F
+	METHOD method_24099 luminance (I)F
+		ARG 0 val
+	METHOD method_24100 blendComponent (IIIII)I
+		ARG 0 a
+		ARG 1 b
+		ARG 2 c
+		ARG 3 d
+		ARG 4 shift
+	METHOD method_24101 blendPixels (IIIIZ)I
+		ARG 0 a
+		ARG 1 b
+		ARG 2 c
+		ARG 3 d
+		ARG 4 flat
+	METHOD method_24102 buildMipMaps (Lnet/minecraft/class_1011;I)[Lnet/minecraft/class_1011;
+		ARG 1 lod

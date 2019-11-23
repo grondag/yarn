@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_4723 net/minecraft/client/render/RetexturingVertexConsumer
+	FIELD field_21730 wrappedConsumer Lnet/minecraft/class_4588;
+	FIELD field_21731 sprite Lnet/minecraft/class_1058;

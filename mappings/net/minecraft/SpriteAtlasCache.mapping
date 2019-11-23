@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_4724 net/minecraft/SpriteAtlasCache
+	FIELD field_21746 map Ljava/util/Map;
+	METHOD method_24096 bind (Lnet/minecraft/class_1060;I)V
+	METHOD method_24097 getSprite (Lnet/minecraft/class_4730;)Lnet/minecraft/class_1058;

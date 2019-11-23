@@ -20,14 +20,14 @@ CLASS net/minecraft/class_4722 net/minecraft/client/render/StupidDumbassRenderCr
 	FIELD field_21728 SIGN_LAYER Lnet/minecraft/class_1921;
 	FIELD field_21729 CHEST_LAYER Lnet/minecraft/class_1921;
 	METHOD method_24059 bannerLayer ()Lnet/minecraft/class_1921;
-	METHOD method_24062 getBadChestMaterial (Lnet/minecraft/class_2586;Lnet/minecraft/class_2745;Z)Lnet/minecraft/class_4730;
+	METHOD method_24062 chestSprideId (Lnet/minecraft/class_2586;Lnet/minecraft/class_2745;Z)Lnet/minecraft/class_4730;
 	METHOD method_24063 chooseChestSide (Lnet/minecraft/class_2745;Lnet/minecraft/class_4730;Lnet/minecraft/class_4730;Lnet/minecraft/class_4730;)Lnet/minecraft/class_4730;
 		ARG 1 unsided
 		ARG 2 left
 		ARG 3 right
-	METHOD method_24064 makeBadSignMaterial (Lnet/minecraft/class_4719;)Lnet/minecraft/class_4730;
-	METHOD method_24065 makeBadChestMaterial (Ljava/lang/String;)Lnet/minecraft/class_4730;
-	METHOD method_24066 addBadCouplings (Ljava/util/function/Consumer;)V
+	METHOD method_24064 spriteId (Lnet/minecraft/class_4719;)Lnet/minecraft/class_4730;
+	METHOD method_24065 spriteId (Ljava/lang/String;)Lnet/minecraft/class_4730;
+	METHOD method_24066 addSpriteIdentifiers (Ljava/util/function/Consumer;)V
 	METHOD method_24067 shieldLayer ()Lnet/minecraft/class_1921;
 	METHOD method_24069 bedLayer ()Lnet/minecraft/class_1921;
 	METHOD method_24070 shulkerBoxLayer ()Lnet/minecraft/class_1921;
